@@ -1,4 +1,5 @@
 class StaticContentController < Spree::BaseController
+  layout 'pages'
   caches_action :show
   
   def show
